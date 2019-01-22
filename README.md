@@ -1,4 +1,3 @@
-# Homepage
-
-This is Store homepage with cloud database.
+# Detail
+This is Store Detail page with virtual data.
 
