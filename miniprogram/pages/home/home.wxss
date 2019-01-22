@@ -14,8 +14,8 @@
   display: flex;
   align-items: center;
   left: 44rpx;
-  top: 41rpx;
-  width: 400rpx;
+  top: 30rpx;
+  width: 500rpx;
 }
 
 .hot-name-line {
@@ -41,7 +41,7 @@
 .hot-image {
   position: absolute;
   bottom: 0rpx;
-  right: 0rpx;
+  right: 50rpx;
   width: 240rpx;
   height:240rpx;
 }
@@ -71,7 +71,7 @@
 }
 
 .product-card {
-  flex: 1;
+  width:45%;
   background: #FFFFFF;
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
   border-radius: 13rpx;
@@ -87,8 +87,11 @@
 }
 
 .product-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin: 0 21rpx;
-  font-size: 28rpx;
+  font-size: 20rpx;
   color: rgba(29, 29, 38, 0.8);
   line-height: 40rpx;
 }
@@ -99,20 +102,8 @@
   margin: 9rpx 21rpx 15rpx;
 }
 
-.product-money,
-.product-add {
-  width: 36rpx;
-  height: 36rpx;
-  line-height: 36rpx;
-  text-align: center;
-  border-radius: 50%;
-  color: #34373D;
-  font-weight: 900;
-  background: #F7E687;
-}
-
 .product-money {
-  font-size: 24rpx;
+  font-size: 20rpx;
 }
 
 .product-add {
@@ -123,4 +114,19 @@
   flex: 1;
   margin: 0 10rpx;
   font-size: 28rpx;
+}
+.hot-price {
+  flex: 1;
+  margin: 0 10rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgba(29, 29, 38, 0.8);
+}
+.hot-meta {
+  display: flex;
+  align-items: baseline;
+  margin: 9rpx 21rpx 15rpx;
+}
+.hot-money {
+  font-size: 25rpx;
 }
