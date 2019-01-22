@@ -22,7 +22,6 @@
   width: 24rpx;
   height: 39rpx;
 }
-
 .hot-price {
   flex: 1;
   margin: 0 10rpx;
@@ -30,17 +29,14 @@
   font-weight: bold;
   color: rgba(29, 29, 38, 0.8);
 }
-
 .hot-meta {
   display: flex;
   align-items: baseline;
   margin: 9rpx 21rpx 15rpx;
 }
-
 .hot-money {
   font-size: 25rpx;
 }
-
 .hot-name-text {
   margin: 0 20rpx;
   font-size: 28rpx;
