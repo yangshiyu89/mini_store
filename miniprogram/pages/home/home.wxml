@@ -5,9 +5,9 @@
   <view class='hot-name'>
     <image class='hot-name-line' src='/images/line-red.png'></image>
     <view class='hot-name-text'>{{productList[0].name}}</view>
-    <view class='product-meta'>
-      <view class='product-money'>$</view>
-      <view class='product-price'>{{productList[0].price}}</view>
+    <view class='hot-meta'>
+      <view class='hot-money'>$</view>
+      <view class='hot-price'>{{productList[0].price}}</view>
     </view>
     <image class='hot-name-line' src='/images/line-red.png'></image>
   </view>
