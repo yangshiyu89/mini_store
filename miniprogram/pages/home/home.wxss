@@ -1,7 +1,5 @@
 /* pages/home/home.wxss */
-.bg{
-  
-}
+
 .hot-card {
   position: relative;
   margin: 32rpx 52rpx 0;
@@ -17,7 +15,7 @@
   align-items: center;
   left: 44rpx;
   top: 41rpx;
-  width: 300rpx;
+  width: 400rpx;
 }
 
 .hot-name-line {
@@ -42,10 +40,10 @@
 
 .hot-image {
   position: absolute;
-  top: 53rpx;
-  right: 47rpx;
-  width: 241rpx;
-  height: 241rpx;
+  bottom: 0rpx;
+  right: 0rpx;
+  width: 240rpx;
+  height:240rpx;
 }
 
 .list-title {
