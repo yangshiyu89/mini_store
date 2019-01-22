@@ -10,7 +10,7 @@ Page({
       image: 'https://product-1256088332.cos.ap-guangzhou.myqcloud.com/product2.jpg',
       name: 'Guitar',
       price: 480.50,
-      source: 'CHINA'
+      source: 'SWEDEN'
     },
 
   },
