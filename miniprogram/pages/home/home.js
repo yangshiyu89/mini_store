@@ -16,7 +16,7 @@ Page({
       image: 'https://s3.cn-north-1.amazonaws.com.cn/u-img/product2.jpg',
       name: 'Guitar',
       price: 200,
-      source: 'SWENDEN',
+      source: 'SWEDEN',
     }, {
       id: 3,
       image: 'https://s3.cn-north-1.amazonaws.com.cn/u-img/product3.jpg',
