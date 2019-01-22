@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/detail/detail",
     "pages/home/home",
+    "pages/detail/detail",
     "pages/order/order",
     "pages/cart/cart",
     "pages/me/me"
   ],
-"window": {
+  "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#ececee",
     "navigationBarTextStyle": "black",

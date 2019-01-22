@@ -17,7 +17,7 @@ page {
   align-items: center;
   margin: 50rpx 27rpx 0;
   height: 200rpx;
-  background: #FFFFFF;
+  background: #fff;
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
   border-radius: 13rpx;
 }
@@ -27,7 +27,7 @@ page {
   margin-left: 53rpx;
   height: 100rpx;
   width: 100rpx;
-  background: #F5E069;
+  background: #f5e069;
   border-radius: 50%;
 }
 
@@ -47,7 +47,7 @@ page {
   margin-top: 6rpx;
   line-height: 33rpx;
   font-size: 24rpx;
-  color: #8B8B8B;
+  color: #8b8b8b;
 }
 
 .unlogin-btn {
@@ -55,13 +55,13 @@ page {
   width: 250rpx;
   height: 80rpx;
   line-height: 80rpx;
-  background: #F5E069;
+  background: #f5e069;
   outline: none;
   border: none;
   border-radius: 10rpx;
   font-size: 30rpx;
   text-align: center;
-  color: #34373D;
+  color: #34373d;
   font-weight: bold;
 }
 

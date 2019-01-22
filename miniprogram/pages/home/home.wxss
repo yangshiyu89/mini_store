@@ -4,7 +4,7 @@
   position: relative;
   margin: 32rpx 52rpx 0;
   height: 326rpx;
-  background: #FFFFFF;
+  background: #fff;
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
   border-radius: 13rpx;
 }
@@ -44,7 +44,7 @@
 .hot-name-text {
   margin: 0 20rpx;
   font-size: 28rpx;
-  color: #34373D;
+  color: #34373d;
   font-weight: bold;
 }
 
@@ -52,7 +52,7 @@
   position: absolute;
   width: 259rpx;
   height: 188rpx;
-  left: 42rpx; 
+  left: 42rpx;
   bottom: 0;
 }
 
@@ -61,7 +61,7 @@
   bottom: 0rpx;
   right: 50rpx;
   width: 240rpx;
-  height:240rpx;
+  height: 240rpx;
 }
 
 .list-title {
@@ -84,13 +84,13 @@
 
 .product-row {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   margin: 0 52rpx 28rpx;
 }
 
 .product-card {
-  width:45%;
-  background: #FFFFFF;
+  width: 45%;
+  background: #fff;
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
   border-radius: 13rpx;
 }

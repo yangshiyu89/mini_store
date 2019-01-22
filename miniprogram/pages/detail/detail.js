@@ -1,73 +1,48 @@
 // pages/detail/detail.js
+
+const db = require('../../utils/cloud')
+
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
-    product: {
-      id: 2,
-      image: 'https://product-1256088332.cos.ap-guangzhou.myqcloud.com/product2.jpg',
-      name: 'Guitar',
-      price: 480.50,
-      source: 'SWEDEN'
-    },
-
+    product: {},
   },
 
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    this.getProductDetail(options.id)
   },
 
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
+  getProductDetail(id) {
+    wx.showLoading({
+      title: 'Loading...',
+    })
 
+    db.getProductDetail(id).then(result => {
+      wx.hideLoading()
+
+      const data = result.result
+
+      // get 2 digits price
+      data.price = parseFloat(Math.round(data.price * 100) / 100).toFixed(2)
+
+      if (data) {
+        this.setData({
+          product: data
+        })
+      } else {
+        setTimeout(() => {
+          wx.navigateBack()
+        }, 2000)
+      }
+    }).catch(err => {
+      console.error(err)
+      wx.hideLoading()
+
+      setTimeout(() => {
+        wx.navigateBack()
+      }, 2000)
+    })
   },
 
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
 
-  },
 
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
-  }
 })

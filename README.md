@@ -1,4 +1,4 @@
 # Detail Page
 
-This is Store Detail Page with virtual data.
+This is Store Detail Page with cloud database.
 
