@@ -1,4 +1,3 @@
-<!--pages/detail/detail.wxml-->
 <view class="product-card">
   <image class="product-image" src="{{product.image}}" mode="widthFix"></image>
   <view class="product-name">{{product.name}}</view>
@@ -25,7 +24,7 @@
     <view class="review-btn" bindtap="onTapReviewEntry">
       <view class="review-title">Reviews</view>
       <view class="review-count">{{1}} review(s)</view>
-      <image class="review-arrow" src="/images/grey-arrow.png"></image>
+      <image class="review-arrow" src="/images/grey-arrow.png"></image>      
     </view>
     <view class='review-preview'>test</view>
   </view>
@@ -36,3 +35,4 @@
   <view class="opr-cart" bindtap="addToCart">Add to Cart</view>
   <view class="opr-buy" bindtap="buy">Buy it Now</view>
 </view>
+

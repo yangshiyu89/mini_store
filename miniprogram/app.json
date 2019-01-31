@@ -1,16 +1,17 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/detail/detail",
     "pages/order/order",
     "pages/cart/cart",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/detail/detail"
   ],
   "window": {
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#ececee",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Store"
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Store",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#5D5F64",

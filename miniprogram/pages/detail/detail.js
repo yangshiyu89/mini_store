@@ -1,12 +1,20 @@
 // pages/detail/detail.js
-
-const db = require('../../utils/cloud')
+const db = require('../../utils/db')
 
 Page({
+
+  /**
+   * Page initial data
+   */
   data: {
     product: {},
+
   },
 
+
+  /**
+   * Lifecycle function--Called when page load
+   */
   onLoad(options) {
     this.getProductDetail(options.id)
   },
@@ -20,6 +28,7 @@ Page({
       wx.hideLoading()
 
       const data = result.result
+
 
       // get 2 digits price
       data.price = parseFloat(Math.round(data.price * 100) / 100).toFixed(2)
@@ -45,4 +54,52 @@ Page({
 
 
 
+  /**
+   * Lifecycle function--Called when page is initially rendered
+   */
+  onReady: function() {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page show
+   */
+  onShow: function() {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page hide
+   */
+  onHide: function() {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page unload
+   */
+  onUnload: function() {
+
+  },
+
+  /**
+   * Page event handler function--Called when user drop down
+   */
+  onPullDownRefresh: function() {
+
+  },
+
+  /**
+   * Called when page reach bottom
+   */
+  onReachBottom: function() {
+
+  },
+
+  /**
+   * Called when user click on the top right corner to share
+   */
+  onShareAppMessage: function() {
+
+  }
 })
