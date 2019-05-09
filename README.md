@@ -1,2 +1,4 @@
-# mini_store
-test for mini store for mini program
+# Whole Framework
+
+This is the whole framework for Store Mini Program including tabBar.
+
