@@ -1,2 +1,4 @@
-# mini_store
-test for mini store for mini program
+# Detail Page
+
+This is Store Detail Page with virtual data.
+
