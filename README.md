@@ -1,2 +1,4 @@
-# mini_store
-test for mini store for mini program
+# Homepage
+
+This is Store homepage with cloud database.
+
